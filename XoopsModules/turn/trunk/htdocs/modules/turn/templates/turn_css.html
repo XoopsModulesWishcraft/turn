@@ -1,0 +1,14 @@
+#<{$reference}>_magazine{
+	width:<{$css.book_width}>px;
+	height:<{$css.book_height}>px;
+}
+#<{$reference}>_magazine .turn-page{
+	width:<{$css.page_width}>px;
+	height:<{$css.page_height}>px;
+	<{if $css.background_colour}>
+	background-color:<{$css.background_colour}>;
+	<{/if}>
+	<{if $css.background_image}>
+	background-image:<{$css.background_image}>;
+	<{/if}>
+}
