@@ -1,0 +1,11 @@
+<div id='<{$reference}>_magazine'>
+	<{foreach item=page from=$pages}>
+	<div>
+		<{if $page.html}>
+			<{$page.html}>
+		<{elseif $page.image}>
+			<img src="<{$page.image}>" width="100%"  height="100%" />
+		<{/if}>
+	</div>
+	<{/foreach}>
+</div>
